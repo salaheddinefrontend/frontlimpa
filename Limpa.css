@@ -1,0 +1,262 @@
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+header{
+    width:100%;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.header{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(85, 163, 226);
+}
+.logo{
+    width:100%;
+}
+.logo img{
+    width:30%;
+}
+.contact{
+    width:100%;
+    padding: 20px 0;
+    padding-right: 10px;
+    font-weight: lighter;
+}
+.infos{
+    color:rgb(21, 21, 133);
+}
+.main-menu{
+    width:100%;
+    padding: 20px 0;
+    
+    
+}
+ul{
+    list-style: none;
+    
+}
+.main-menu li{
+    display: inline;
+    padding: 0 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-menu a:hover{
+    color:rgb(26, 172, 26);
+}
+.main-menu a{
+    text-decoration: none;
+    display: inline-block;
+    color:rgb(92, 90, 90);
+}
+.first-heading h1{
+    font-weight: bolder;
+    color:rgb(85, 163, 226);
+}
+.q-s-n{
+    margin-top: 30px;
+    width:100%;
+    border: 1px solid grey;
+    padding: 40px 20px;
+    
+}
+.q-s-n p{
+    font-style: italic;
+    color: grey;
+    font-weight: 200;
+    line-height: 30px;
+}
+.second-heading h1{
+    font-weight: bolder;
+    color:rgb(85, 163, 226);
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+.product{
+    width:100%;
+    margin: 30px 8%;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    cursor: pointer;
+}
+.product1 img{
+    width:50%;
+    height:200px;
+    border:1px solid rgb(107, 57, 127);
+    border-radius: 80px;
+}
+.product2 img{
+    width:50%;
+    height:200px;
+    border:1px solid rgb(233, 213, 33);
+    border-radius: 80px;
+}
+.product3 img{
+    width:50%;
+    height:200px;
+    border:1px solid grey;
+    border-radius: 80px;
+}
+.product4{
+    margin-top: 40px;
+}
+.product5{
+    margin-top: 40px;
+}
+.product6{
+    margin-top: 40px;
+}
+.product4 img{
+    width:50%;
+    height:200px;
+    border:1px solid grey;
+    border-radius: 80px;
+}
+.product5 img{
+    width:50%;
+    height:200px;
+    border:1px solid grey;
+    border-radius: 80px;
+}
+.product6 img{
+    width:50%;
+    height:200px;
+    border:1px solid grey;
+    border-radius: 80px;
+}
+.a-p-h{
+    width:100%;
+}
+.a-p-h h1{
+    text-transform: uppercase;
+    padding: 20px 50px;
+    font-weight: bolder;
+    color:rgb(85, 163, 226);
+}
+.a-p{
+    width:60%;
+    margin: 0 35%;
+    padding: 0 20px;
+}
+.a-p strong{
+    font-size: 30px;
+}
+.a-p p{
+    padding: 0 20px;
+    color:grey;
+    font-weight: 200;
+    line-height: 30px;
+}
+.vente{
+    background-color: rgb(85, 163, 226);
+    padding: 50px 10%;
+}
+.vente a{
+    border: 1px solid white;
+    padding: 10px 10px;
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 30px;
+}
+.p-m-ch{
+    width:100%;
+    margin-top: 50px;
+    
+}
+.p-m-ch h1{
+    font-weight: bolder;
+    color:rgb(85, 163, 226);
+    text-transform: uppercase;
+}
+.inf-pm-ch{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5% 25%;
+}
+.div1{
+    margin: 0 30px;
+}
+.div1 p{
+    font-style: italic;
+    color: grey;
+    font-weight: 200;
+    line-height: 30px;
+
+}
+.div2{
+    margin: 0 30px;
+}
+.div2 p{
+    font-style: italic;
+    color: grey;
+    font-weight: 200;
+    line-height: 30px;
+
+}
+.div3{
+    margin: 0 30px;
+}
+.div3 p{
+    font-style: italic;
+    color: grey;
+    font-weight: 200;
+    line-height: 30px;
+
+}
+.div4{
+    margin: 0 30px;
+}
+.div4 p{
+    font-style: italic;
+    color: grey;
+    font-weight: 200;
+    line-height: 30px;
+
+}
+#satisfaction{
+    width:100%;
+    background-color: rgb(85, 163, 226);
+    padding: 80px 0;
+    
+}
+#satisfaction h1{
+    text-transform: uppercase;
+    padding: 20px 50px;
+    font-weight: bolder;
+}
+.parag-satis{
+    padding: 0 20%;
+}
+.parag-satis p{
+    font-style: italic;
+    color: white;
+    font-weight: 200;
+    line-height: 30px;
+
+}
+.logo-footer{
+    padding: 50px 30px;
+}
+.logo-footer img{
+    width:30%;
+}
+.footer{
+    display: flex;
+}
+.footer-contact{
+    width:100%;
+    padding: 50px 0;
+    margin:0 -10px;
+    font-weight: lighter;
+}
